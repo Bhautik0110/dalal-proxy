@@ -16,7 +16,10 @@ Usage:
 ==> Protocol scheme for upstream server
 -disable-cache (default: false)
 ==> Remove Cache-Control header from response
-
+-port (default: 65535)
+==> Proxy port number
 Example:
 dalal -workers=40 -hosts=service1.com,service2.com -scheme=https -disable-cache=true
+
+# Open localhost:65353
 ```
