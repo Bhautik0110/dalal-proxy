@@ -19,7 +19,7 @@ Usage:
 -port (default: 65535)
 ==> Proxy port number
 Example:
-dalal -workers=40 -hosts=service1.com,service2.com -scheme=https -disable-cache=true
+dalal-proxy -workers=40 -hosts=example.com -scheme=https -disable-cache=true
 
 # Open localhost:65353
 ```
